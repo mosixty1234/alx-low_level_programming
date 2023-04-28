@@ -2,11 +2,9 @@
 #include <stdio.h>
 #include "lists.h"
 /**
-The function "print_list" prints all the elements in a linked list of type "list_t".
-
-Input parameter "h" is a pointer to the head of the linked list.
-
-The function returns the total number of nodes in the linked list.
+*The function "print_list" prints all the elements in a linked list of type "list_t".
+*Input parameter "h" is a pointer to the head of the linked list.
+*The function returns the total number of nodes in the linked list.
  */
 size_t print_list(const list_t *h)
 {
